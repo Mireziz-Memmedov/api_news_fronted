@@ -1,0 +1,56 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+body h2 {
+  font-weight: 500;
+  font-size: 30px;
+}
+body input, body .btn {
+  border: 2px solid #3a5543;
+}
+
+#JS {
+  margin-top: 50px;
+  color: #965A32;
+}
+#JS .btn h2 {
+  cursor: pointer;
+}
+#JS .box {
+  text-align: center;
+  border-radius: 20px;
+  background-color: #E6DAD3;
+  padding: 15px;
+  margin: 20px 0;
+  height: 500px;
+}
+#JS .box img {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#JS .box h1, #JS .box h4, #JS .box .infobox {
+  margin-top: 25px;
+}
+#JS .box h4 {
+  line-height: 25px;
+  overflow: auto;
+  max-height: 126px;
+}
+#JS .box h4::-webkit-scrollbar {
+  display: none;
+}
+#JS .box .infobox {
+  display: flex;
+  justify-content: center;
+}
+#JS .box .infobox .lbtn, #JS .box .infobox .dbtn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #d1b8aa;
+  margin: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
