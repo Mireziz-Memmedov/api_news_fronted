@@ -73,7 +73,7 @@ $(document).ready(function () {
 
     $(document).on("keypress", function (e) {
         if (e.which == 13) {
-            let url = ``;
+            let url = `https://task-news-five.vercel.app/`;
             async function mynews() {
                 let responce = await fetch(url);
                 let data = await responce.json();
