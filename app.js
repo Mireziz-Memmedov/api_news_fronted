@@ -11,7 +11,7 @@ $(document).ready(function () {
                 
 
                 if (Array.isArray(data.news)) {
-                    data.articles.forEach(item => {
+                    data.news.forEach(item => {
                         const box = document.createElement('div');
                         box.className = 'col-md-4';
                         box.innerHTML = `
@@ -46,7 +46,7 @@ $(document).ready(function () {
             console.log(data);
 
             if (Array.isArray(data.news)) {
-                data.articles.forEach(item => {
+                data.news.forEach(item => {
                     const box = document.createElement('div');
                     box.className = 'col-md-4';
                     box.innerHTML = `
